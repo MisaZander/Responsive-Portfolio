@@ -1,5 +1,7 @@
 /* Style.css */
 
+/* Outer Bits */
+
 html, body {
     height: 100%;
     margin: 0;
@@ -16,9 +18,23 @@ body {
     position: relative;
 }
 
+/* Text */
+
 h1 {
     color: #ffffff;
     background-color: #4aaaa5;
-    padding: auto 0;
+    padding: 30px 25px;
+    margin: 0;
+    display: inline-block; /*h1 will not take up more width than it needs */
+}
+
+/* Header */
+
+header {
+    background-color: #ffffff;
+}
+
+.header-container {
+    float: left;
 }
 
