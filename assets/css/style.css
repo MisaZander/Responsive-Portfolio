@@ -26,11 +26,6 @@ body {
 
 h1 {
     font-family: 'Georgia', Times, 'Times New Roman', serif;
-    color: #ffffff;
-    background-color: #4aaaa5;
-    padding: 30px 25px;
-    margin: 0;
-    display: inline-block; /*h1 will not take up more width than it needs */
 }
 
 /* Header */
@@ -53,6 +48,14 @@ header {
     float: left;
 }
 
+.h1-container h1 {
+    color: #ffffff;
+    background-color: #4aaaa5;
+    padding: 30px 25px;
+    margin: 0;
+    display: inline-block; /*h1 will not take up more width than it needs */
+}
+
 header a {
     position: relative;
     float: right;
@@ -67,3 +70,19 @@ header a:hover {
     color: #4aaaa5;
 }
 
+/* About */
+.about {
+    margin-top: 25px;
+    padding: 25px;
+    background-color: #ffffff;
+    width: 960px;
+}
+
+.about-me {
+    padding: 25px;
+    border-bottom: 3px solid #cccccc;
+}
+
+.about-me h1 {
+    color: #4aaaa5;
+}
