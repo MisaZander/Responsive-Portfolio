@@ -10,12 +10,15 @@ html, body {
 body {
     margin: 0;
     padding: 0;
+    background: rgba(0, 0, 0, 0)  url(../images/granite-bg.jpg) no-repeat 0 0;
 }
 
 #page {
     max-width: 960px;
+    height: 100%;
     margin: 0 auto;
     position: relative;
+    
 }
 
 /* Text */
@@ -32,9 +35,18 @@ h1 {
 
 header {
     background-color: #ffffff;
+    border-bottom: 3px solid #cccccc;
+    height: 97px;
+    width: 100%;
 }
 
-.header-container {
+.inner-header {
+    max-width: 960px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.h1-container {
     float: left;
 }
 
