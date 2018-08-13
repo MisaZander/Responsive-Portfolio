@@ -93,3 +93,15 @@ header a:hover {
     padding: 0 0 0 225px;
     background: url(../images/fedora\(smaller\).jpg) no-repeat left top;
 }
+
+footer {
+    position: fixed;
+    height: 50px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #666666;
+    color: #ffffff;
+    text-align: center;
+    border-top: #4aaaa5 solid 10px;
+}
