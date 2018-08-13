@@ -73,19 +73,19 @@ header a:hover {
 }
 
 /* About */
-.about {
+.container {
     margin-top: 25px;
     padding: 25px;
     background-color: #ffffff;
     width: 910px;
 }
 
-.about-me {
+.info-container {
     padding: 25px;
     border-bottom: 3px solid #cccccc;
 }
 
-.about-me h1 {
+.info-container h1 {
     color: #4aaaa5;
 }
 
