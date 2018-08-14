@@ -13,13 +13,12 @@ body {
     background: rgba(0, 0, 0, 0)  url(../images/granite-bg.jpg) no-repeat 0 0;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #cccccc;
-    line-height: 2em;
+    line-height: 1.8em;
 }
 
 #page {
     max-width: 960px;
-    height: 100%;
-    margin: 0 auto 300px auto;
+    margin: 0 auto 200px auto;
     position: relative;
     
 }
@@ -86,7 +85,7 @@ header a:hover {
 }
 
 .info-container {
-    padding: 25px;
+    padding: 0 25px;
     border-bottom: 3px solid #cccccc;
 }
 
@@ -97,6 +96,7 @@ header a:hover {
 .first-paragraph {
     padding: 0 0 0 225px;
     background: url(../images/fedora\(smaller\).jpg) no-repeat left top;
+    margin-top: 30px;
 }
 
 /* Contact */
