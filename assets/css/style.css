@@ -35,13 +35,13 @@ h1 {
 header {
     background-color: #ffffff;
     border-bottom: 3px solid #cccccc;
-    height: 97px;
+    height: 92px;
     width: 100%;
 }
 
 .inner-header {
     width: 960px;
-    height: 97px;
+    height: 92px;
     margin: 0 auto;
     position: relative;
 }
