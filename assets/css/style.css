@@ -67,6 +67,10 @@ header a {
     text-decoration: none;
 }
 
+header a.selected {
+    color: #4aaaa5;
+}
+
 header a:hover {
     text-decoration: underline;
     color: #4aaaa5;
@@ -93,6 +97,11 @@ header a:hover {
     padding: 0 0 0 225px;
     background: url(../images/fedora\(smaller\).jpg) no-repeat left top;
 }
+
+/* Contact */
+
+
+/* Portfolio */
 
 footer {
     position: fixed;
