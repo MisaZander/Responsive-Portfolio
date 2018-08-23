@@ -184,3 +184,16 @@ footer {
         padding: 25px 34px;
     }
 }
+
+@media screen and (max-width: 768px) {
+    #page {
+        width: 580px;
+        margin: 0 auto;
+        position: relative;
+    }
+
+    .container {
+        width: 540px;
+        padding: 25px 20px;
+    }
+}
