@@ -251,6 +251,7 @@ footer {
 
     .container {
         width: 460px;
+        position: relative;
     }
 
     .info-container {
@@ -271,5 +272,21 @@ footer {
 
     .first-paragraph p {
         clear: both;
+    }
+
+    /* Porfolio */
+    div.portfolio-element, div.portfolio-element img {
+        width: 300px;
+        height: 250px; 
+    }
+
+    div.portfolio-element {
+        margin: 20px auto 0 auto;
+        float: none;
+    }
+
+    div.portfolio-element p {
+        top: 60%;
+        font-size: 1.5em;
     }
 }
