@@ -203,6 +203,7 @@ footer {
 @media screen and (max-width: 640px) {
     #page {
         width: 500px;
+        margin-bottom: 200px;
     }
     
     /* Header */
@@ -234,5 +235,31 @@ footer {
 
     header a.link-center {
         margin-right: 30%;
+    }
+
+    /* Aboat */
+
+    .container {
+        width: 460px;
+    }
+
+    .info-container {
+        padding: 0;
+    }
+
+    .first-paragraph {
+        width: 100%;
+        position: relative;
+    }
+    
+    .first-paragraph img {
+        margin: 0 auto;
+        display: block;
+        padding: 0;
+        float: none;
+    }
+
+    .first-paragraph p {
+        clear: both;
     }
 }
