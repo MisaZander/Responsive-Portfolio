@@ -198,6 +198,16 @@ footer {
         width: 540px;
         padding: 25px 20px;
     }
+
+    /* Porfolio */
+    div.portfolio-element, div.portfolio-element img {
+        width: 200px;
+        height: 167px;
+    }
+
+    div.portfolio-element p {
+        top: 55%;
+    }
 }
 
 @media screen and (max-width: 640px) {
