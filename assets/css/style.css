@@ -192,8 +192,47 @@ footer {
         position: relative;
     }
 
+    /* Aboat */
+
     .container {
         width: 540px;
         padding: 25px 20px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    #page {
+        width: 500px;
+    }
+    
+    /* Header */
+    
+    header {
+        height: initial;
+        height: 150px;
+    }
+
+    .inner-header {
+        width: 100%;
+        margin: 0;
+        position: static;
+    }
+
+    .h1-container {
+        float: none;
+    }
+
+    .h1-container h1 {
+        display: block;
+        text-align: center;
+    }
+
+    header a {
+        text-align: center;
+        line-height: 70px;        
+    }
+
+    header a.link-center {
+        margin-right: 30%;
     }
 }
